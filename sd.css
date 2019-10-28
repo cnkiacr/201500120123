@@ -1,0 +1,283 @@
+/* reset */
+html { color: #000; background: #fff; }
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, input, button, textarea, p, blockquote, th, td { margin: 0; padding: 0; }
+body, button, input, select, textarea { font-size: 12px; font-family: Tahoma,"宋体"; }
+img { border: none; }
+em, strong { font-style: normal; font-weight: bold; }
+ul, li, ol { list-style: none; }
+table { border-collapse: collapse; border-spacing: 0; }
+h1 { font-size: 18px; }
+h2 { font-size: 16px; }
+h3 { font-size: 14px; }
+h1, h2, h3, h4, h5, h6 { font-weight: bold; }
+h4, h5, h6 { font-size: 100%; }
+address, cite, dfn, em, var { font-style: normal; }
+button, input, select, textarea { font-size: 100%; }
+q:before, q:after { content: ''; }
+.cl, .clear { clear: both; }
+/* link */
+a { color: #02669a; text-decoration: none; }
+a:hover { color: #02669a; text-decoration: underline; }
+/*layout*/
+#main { width: 1000px; overflow: hidden; margin: 0 auto; text-align: center; position: relative; z-index: 1; }
+.layout1, .layout2 { width: 1000px; overflow: hidden; margin-top: 10px; }
+/*topnav*/
+#topnav { width: 100%; overflow: hidden; height: 33px; background: url(../../images/Magazine/cnkitopnavbj.gif) repeat-x; }
+.topnavcon { width: 1000px; margin: 0 auto; text-align: center; height: 33px; }
+.topnavcon .login { float: left; line-height: 33px; color: #494949; height: 33px; }
+.topnavcon .login strong { float: left; font-weight: normal; }
+.topnavcon .login strong a, .topnavcon .login strong a:hover { color: Black; }
+.topnavcon .login .button_login { width: 64px; height: 25px; display: block; float: left; background: url(../../images/Magazine/buttonlogin051701.gif) no-repeat; margin: 3px 0 0 10px; _display: inline; }
+.topnavcon .login .button_sub { width: 72px; height: 25px; display: block; float: left; background: url(../../images/Magazine/buttonlogin051702.gif) no-repeat; margin: 3px 0 0 10px; _display: inline; }
+.topnavcon .login .sub, .topnavcon .login a, .topnavcon .login a:hover { color: #db5800; }
+.topnavcon .login .msg { margin-left: 5px; margin-right: 5px; }
+.topnavcon .login .logout { text-decoration: underline; color: #494949; margin: 0 0 0 3px; }
+.topnavcon .guild { float: right; height: 33px; }
+.topnavcon .guild a, .topnavcon .guild span { float: left; }
+.topnavcon .guild span { padding: 0 8px; line-height: 30px; _line-height: 33px; color: #484848; }
+.topnavcon .guild a, .topnavcon .guild a:hover { line-height: 22px; margin: 6px 0 0 0; color: #484848; }
+.topnavcon .guild a.topnav_gwc, .topnavcon .guild a.topnav_gwc:hover { width: 50px; height: 19px; display: block; border: #F90 solid 1px; background: #fff url(../../images/Magazine/cnkitopnavgwc.gif) no-repeat 4px 3px; padding: 0 0 0 13px; line-height: 20px; _line-height: 18px; }
+a.wapcnki { background: url(../../images/Magazine/cnkitopnavphone.gif) no-repeat left center; padding-left: 16px; }
+span.topnav_null { width: 7px; display: block; height: 20px; }
+
+/*header*/
+#header { width: 1000px; margin: 0 auto; text-align: center; position: relative; z-index: 9999; }
+
+#logo { width: 239px; height: 57px; float: left; margin: 8px 0 0 5px; _display: inline; position: relative; background: url(../../images/Magazine/cnkilogo0517.gif) no-repeat; }
+#logo .logo01 { position: absolute; left: 0px; top: 0px; width: 158px; height: 57px; overflow: hidden; }
+#logo .logo02 { position: absolute; right: 0px; top: 0px; width: 79px; height: 57px; overflow: hidden; }
+#header strong.logoname { font-size: 14px; font-weight: normal; color: #888; position: absolute; left: 202px; top: 25px; }
+/*nav*/
+.nav { height: 27px; float: left; margin: 46px 0 0 10px; _display: inline; }
+.nav .navleft, .nav .navright { width: 6px; height: 27px; float: left; background: url(../../images/Magazine/magnavleft.gif) no-repeat; }
+.nav .navright { background: url(../../images/Magazine/magnavright.gif) no-repeat; }
+.nav ul { height: 27px; float: left; background: url(../../images/Magazine/magnavcenter.gif) repeat-x; }
+.nav ul li { float: left; padding: 0 7px; line-height: 27px; color: #87CB34; }
+.nav ul li a, .nav ul li a:hover { color: #3C7800; }
+.nav ul li.nav_on { width: 59px; height: 27px; padding: 0; background: url(../../images/Magazine/magnavon.gif) no-repeat; color: #fff; font-weight: bold; font-size: 14px; }
+.nav ul li.nav_on a { font-size: 14px; color: #fff; font-weight: bold; }
+.nav ul li.nav_on h1 { font-size: 14px; color: #fff; font-weight: bold; }
+.nav ul li.nav_on h1 a { width: 59px; height: 27px; display: block; float: left; color: #fff; font-weight: bold; }
+.nav_xueshu { width: 83px; height: 28px; display: block; float: left; line-height: 27px; background: url(../../images/Magazine/magnavxueshu.gif) no-repeat; text-align: center; margin: 45px 0 0 5px; _display: inline; }
+.nav_xueshu a, .nav_xueshu a:hover { color: Red; }
+.nav_baiyi { width: 83px; height: 28px; float: left; line-height: 27px; display: block; background: url(../../images/Magazine/magnavxueshu.gif) no-repeat; text-align: center; margin: 45px 0 0 5px; _display: inline; }
+.nav_baiyi a, .nav_baiyi a:hover { color: #3C7800; }
+/*headerbottombox*/
+.headerbottombox { width: 1000px; height: 49px; background: url(../../images/Magazine/magheadersidebg.gif) no-repeat; text-align: left; }
+.search { float: left; padding-top: 6px; width: 960px; text-align: center; }
+.search-for-short-input { width: 1000px; }
+.search label { float: left; margin: 7px 0 0 10px; _display: inline; line-height: 20px; color: #fff; }
+.search label input { float: left; margin: 4px 2px 0 0; +margin:0px 2px 0 0; }
+.search select { float: left; margin: 5px 0 0 0; display: inline; font-size: 14px; padding: 2px 1px; border: #999 solid 1px; }
+.search select option { line-height: 22px; text-align: left; }
+.search .sh3 { width: 240px; float: left; height: 18px; line-height: 16px; padding: 2px 3px; border-color: #6B6B6B #fff #fff #9F9F9F; border-style: solid; border-width: 1px; margin: 5px 5px 0 10px; _display: inline; color: #666; }
+.button_sh { width: 55px; height: 25px; border: none; background: url(../../images/Magazine/magbtn_search.gif) no-repeat; cursor: pointer; display: block; float: left; margin: 5px 0 0 5px; line-height: 25px; color: #336600; }
+
+/*2013 7 3 add*/
+.search .sh3_new { width: 340px; height: 29px; border: 1px solid #58ab00; color: #666; margin-right: 5px; margin-bottom: 0; margin-left: 0px; padding-right: 3px; padding-left: 3px; line-height: 29px; _display: inline; }
+.search .sh3_new-short-input { width: 255px; }
+.search .select-wrap { display: block; height: 24px; *height: 26px; padding-top: 5px; *padding-top: 3px; background-color: #FFF; border: 1px solid #58ab00; border-right: none; margin-right: 0px; padding-right: 5px; padding-left: 2px; }
+.search .select-wrap .sh4 { font-size: 14px; width: 100px; background-color: #fff; border: 0; margin: -1px 0 0 0; }
+
+#button_shswx { width: 92px; height: 31px; border: none; cursor: pointer; display: block; float: left; margin-right: 20px; margin-bottom: 0; margin-left: 0; background-image: url(../../images/Magazine/search2.jpg); background-repeat: no-repeat; font-size: 14px; font-weight: bold; color: #217200; }
+/*2013 7 3 add over*/
+
+.wysqk { float: left; width: 121px; }
+.wysqk a { background-image: url(../../images/Magazine/search3.jpg); background-repeat: no-repeat; display: block; height: 32px; width: 121px; line-height: 32px; text-align: center; font-size: 14px; color: #FFF; }
+.wysqk a:hover { color: #FFF; text-decoration: underline; }
+.search_zm { }
+.search_zm a { font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: bold; color: #FFF; padding-right: 2px; padding-left: 2px; }
+
+/*search article end*/
+.nodisplay { display: none; }
+.displayList { float: left; font: normal 12px Arial; width: 80px; position: absolute; }
+#s { width: 300px; }
+#results { position: absolute; top: 0; left: 0; text-align: left; }
+#results ul { border: 1px solid #bfbfbf; margin: 0; padding: 0; list-style: none; width: 261px; float: left; background: fff; }
+#results ul li { font-size: 12px; font-weight: none; color: #000; height: 28px; width: 261px; overflow: hidden; }
+#results ul li a { display: block; color: #666; background: #fff; font: normal 12px arial; text-decoration: none; padding: 0 2px 0 2px; height: 28px; line-height: 28px; }
+#results ul li a strong { color: red; }
+#results ul li a.hover { background: #A8CAA9; color: #000; }
+#results ul li a.hover strong { color: #fff; }
+/*service*/
+#service { width: 1000px; overflow: hidden; margin: 10px 0 0 0; }
+/*footer*/
+#footer { width: 1000px; position: relative; overflow: hidden; margin: 10px auto 0 auto; padding-bottom: 30px; }
+#footer .footer_link { width: 1000px; height: 45px; background: url(../../images/Magazine/magfooterbg.gif) no-repeat; text-align: center; line-height: 45px; color: #fff; }
+#footer .footer_link a, #footer .footer_link a:hover { color: #fff; }
+#footer .footer_copyright { width: 800px; overflow: hidden; padding-left: 200px; padding-top: 10px; position: relative; }
+#footer .footer_copyright ul { width: 340px; overflow: hidden; float: left; text-align: left; padding-right: 30px; }
+#footer .footer_copyright ul li { line-height: 24px; color: #333; }
+#footer .footer_copyright ul li a, #footer .footer_copyright ul li a:hover { color: #333; }
+#footer .footer_copyright .biaoshi_l { background: url(../../images/Magazine/biao.jpg) no-repeat; border: 0 none; cursor: pointer; display: inline-block; height: 48px; width: 40px; position: absolute; left: 75px; top: 25px; }
+#footer .footer_copyright .biaoshi_r { background: url(../../images/Magazine/biao.jpg) no-repeat; border: 0 none; cursor: pointer; display: inline-block; height: 48px; width: 40px; position: absolute; right: 75px; top: 25px; }
+#share { width: 240px; background: #7f7f7f; overflow: hidden; padding: 7px; position: absolute; display: none; z-index: 10000; }
+#sharebox { width: 240px; background: #FFF; }
+#sharebox_t { width: 240px; background: #f6f6f6; height: 25px; }
+#sharebox_t span { font-size: 12px; font-weight: bold; line-height: 25px; padding-left: 10px; color: #444; float: left; }
+#sharebox_t a { width: 10px; height: 10px; display: block; background: url(../../images/Magazine/img_exit.gif) no-repeat; float: right; margin: 7px 10px 0 0; _display: inline; }
+#sharebox table { width: 220px; margin: 5px 0 0 5px; _display: inline; }
+#sharebox table td { line-height: 26px; height: 26px; }
+#sharebox table td a { padding-left: 20px; line-height: 25px; display: block; }
+#google { background: url(../../images/Magazine/shareico.gif) no-repeat left 3px; }
+#baidu { background: url(../../images/Magazine/shareico.gif) no-repeat left -180px; }
+#qq { background: url(../../images/Magazine/shareico.gif) no-repeat left -23px; }
+#sina { background: url(../../images/Magazine/shareico.gif) no-repeat left -206px; }
+#sohu { background: url(../../images/Magazine/shareico.gif) no-repeat left -51px; }
+#renren { background: url(../../images/Magazine/shareico.gif) no-repeat left -232px; }
+#kaixin001 { background: url(../../images/Magazine/shareico.gif) no-repeat left -80px; }
+#gmail { background: url(../../images/Magazine/shareico.gif) no-repeat left -260px; }
+#hotmail { background: url(../../images/Magazine/shareico.gif) no-repeat left -110px; }
+#douban { background: url(../../images/Magazine/shareico.gif) no-repeat left -141px; }
+#zhuaxia { background: url(../../images/Magazine/shareico.gif) no-repeat left -290px; }
+#xianguo { background: url(../../images/Magazine/shareico.gif) no-repeat left -409px; }
+#twitter { background: url(../../images/Magazine/shareico.gif) no-repeat left -320px; }
+#hexun { background: url(../../images/Magazine/shareico.gif) no-repeat left -349px; }
+#baiduspace { background: url(../../images/Magazine/shareico.gif) no-repeat left -180px; }
+#delicious { background: url(../../images/Magazine/shareico.gif) no-repeat left -375px; }
+#feidu { background: url(../../images/Magazine/shareico_feidu.gif) no-repeat left center; }
+/*detail文章页面中内容*/
+#content { width: 1000px; overflow: hidden; margin: 0 auto; }
+#content #con { width: 998px; border: 1px solid #dedede; background: #F2FAED; overflow: hidden; clear: both; }
+
+/*location*/
+.location { width: 980px; height: 42px; line-height: 42px; float: left; background: url(../../images/Magazine/mag_detail_topban.gif) repeat-x; overflow: hidden; text-align: left; padding-left: 20px; margin-bottom: 10px; }
+.location a { color: #1458a8; }
+
+/*wz_left*/
+#wz_left { float: left; border-right: #DEDEDE solid 1px; width: 768px; line-height: 30px; background: #fff; min-height: 960px; height: auto !important; height: 960px; }
+.wz_ly { width: 748px; height: 30px; background: #f2faed; text-align: left; padding-left: 20px; }
+.wz_ly_l { float: left; }
+.wz_ly_l a { color: #367401; text-decoration: underline; }
+.wz_ly_l a:hover { color: #396; }
+
+.wz_ly_r { float: right; margin-right: 10px; margin-top: 6px; font-size: 14px; display: inline-block; width: 140px; }
+.wz_ly_r .zh { float: right; width: 80px; _display: inline; }
+.wz_ly_r .zh li { float: left; width: 18px; margin: 0 3px; text-align: center; font-size: 12px; line-height: 16px; height: 16px; font-family: Tahoma; }
+.wz_ly_r .zh li a { text-decoration: none; background: #fff; border: 1px solid #999; color: #333; display: block; }
+.wz_ly_r .zh li a:hover { background: #4C8716; border: 1px solid #999; color: #fff; }
+.wz_ly_r span { float: left; font-size: 14px; display: block; line-height: 20px; }
+/*内容14号字*/
+.text { float: left; line-height: 24px; /*overflow:hidden;*/ }
+.text h1 { width: 768px; line-height: 24px; font-family: "黑体"; font-size: 24px; color: ##000000; margin: 25px 0 15px 0; text-align: center; }
+.text p { width: 683px; line-height: 28px; font-size: 14px; text-align: left; padding: 0 30px 0 35px; text-indent: 25px; margin: 30px 0 25px 0; }
+.text p a { color: #cc0000; text-decoration: underline; }
+.text p a:hover { color: #ff0000; }
+/*内容12号字*/
+.text1 { width: 748px; float: left; line-height: 24px; overflow: hidden; text-align: center; }
+.text1 h1 { width: 748px; line-height: 24px; font-family: "黑体"; font-size: 24px; color: ##000000; margin: 25px 0 15px 0; text-align: center; }
+.text1 p { width: 683px; line-height: 26px; font-size: 12px; text-align: left; padding: 0 30px 0 35px; text-indent: 25px; margin: 30px 0 25px 0; }
+.text1 p a { color: #cc0000; text-decoration: underline; }
+.text1 p a:hover { color: #ff0000; }
+/*内容16号字*/
+.text2 { width: 748px; float: left; line-height: 24px; overflow: hidden; text-align: center; }
+.text2 h1 { width: 748px; line-height: 24px; font-family: "黑体"; font-size: 24px; color: ##000000; margin: 25px 0 15px 0; text-align: center; }
+.text2 p { width: 720px; line-height: 30px; font-size: 16px; text-align: left; padding: 0 25px 0 35px; text-indent: 25px; margin: 30px 0 25px 0; }
+.text2 p a { color: #cc0000; text-decoration: underline; }
+.text2 p a:hover { color: #ff0000; }
+
+.title { background: url(../../images/Magazine/mag_detail_titlebg.gif) no-repeat; width: 152px; height: 23px; display: block; text-align: center; margin: 5px auto; line-height: 25px; padding-top: 2px; }
+.title a { color: #669900; text-decoration: underline; }
+.title a:hover { color: #0C3; }
+.hui14 { font-size: 14px; color: #B3B2B2; }
+.rh { text-align: center; font-size: 12px; padding-top: 6px; }
+.rh a { color: #336600; text-decoration: underline; }
+.rh a:hover { color: #cc0000; }
+
+.wztj { background: url(../../images/Magazine/wz_bg_ban01_new.gif) no-repeat; width: 718px; height: 44px; margin: 10px 0px 10px 0px; padding-left: 30px; line-height: 44px; font-weight: bold; text-align: left; position: relative; }
+.wztj h2 { font-size: 14px; color: #fff; font-weight: bold; display: inline; }
+.wztj input { width: 400px; font-size: 14px; padding: 2px; margin-left: 30px; margin-top: 5px; display: inline; }
+.wztj a { position: absolute; top: 6px; right: 100px; }
+
+.left_wztj { width: 748px; overflow: hidden; }
+.tablist { width: 688px; overflow: hidden; padding: 10px 30px; text-align: left; }
+.tablist ul { width: 688px; float: left; line-height: 24px; overflow: hidden; }
+.tablist ul li { width: 688px; background: url(../../images/Magazine/mag_detail_line.jpg) repeat-x 0px 12px; text-align: left; font-size: 14px; padding-bottom: 0px; height: 30px; float: left; margin: 0px 0px; }
+.tablist ul li p { line-height: 24px; background: url(../../images/Magazine/indexlistico.gif) no-repeat #fff 5px 12px; display: block; padding: 0px 5px 0px 15px; font-size: 14px; color: #333; float: left; margin: 0 0; }
+.tablist ul li span { background: #fff; padding: 1px 4px; font-size: 12px; color: #333; float: right; }
+
+a.h14:link, a.h14:visited { font-size: 14px; color: #333; text-decoration: none; font-weight: normal; line-height: 26px; }
+a.h14:hover { font-size: 14px; color: #cc0000; text-decoration: underline; font-weight: normal; line-height: 26px; }
+a.black12:link, a.black12:visited { font-size: 12px; color: #999; text-decoration: none; font-weight: normal; }
+a.black12:hover { font-size: 12px; color: #000; text-decoration: underline; font-weight: normal; }
+
+.wztj02 { background: url(../../images/Magazine/wz_bg_ban01_new.gif) no-repeat; width: 718px; height: 44px; margin: 10px 0px 10px 0px; padding-left: 30px; line-height: 44px; font-weight: bold; text-align: left; }
+.wztj02 h2 { font-size: 14px; color: #fff; font-weight: bold; display: inline; float: left; }
+.wztj02 a { float: right; padding-right: 10px; line-height: 44px; color: #fff; font-weight: normal; }
+
+.zazhi { overflow: hidden; }
+.zazhi dl { float: left; margin: 5px 11px 10px 15px !important; margin-left: 11px; }
+.zazhi dl dt { overflow: hidden; }
+.zazhi dl dt img { padding: 3px; border: 1px solid #dedede; }
+.zazhi dl dd { text-align: center; color: #003DBA; }
+.zazhi dl dd a { color: #003DBA; }
+
+/*wz_right*/
+#wz_right { float: right; width: 209px; overflow: hidden; padding: 20px 10px; text-align: center; font-weight: lighter; }
+.right_book { background: #FFF; padding: 3px; border: 1px solid #E9E9E9; width: 187px; margin: 6px auto; }
+.book_text { font-size: 12px; font-weight: bold; width: 200px; margin: 15px auto 10px; text-align: left; line-height: 22px; }
+.book_text span { color: #cc0000; }
+.book_btn { width: 209px; margin: 10px 0 18px 0; }
+.book_btn .but_toread { background: url(../../images/Magazine/mag_detail_btn_yd.gif) no-repeat; width: 57px; height: 25px; display: block; float: left; margin: 0 4px; }
+.book_btn .but_tobuy { background: url(../../images/Magazine/mag_detail_btn_dyue.gif) no-repeat; width: 57px; height: 25px; display: block; float: left; margin: 0 4px; }
+.book_btn .but_tocatalog { background: url(../../images/Magazine/mag_detail_btn_ml.gif) no-repeat; width: 57px; height: 25px; display: block; float: left; margin: 0 4px; }
+
+.r_ban { background: url(../../images/Magazine/mag_detail_rightban.gif) no-repeat; width: 190px; height: 30px; text-align: left; padding-left: 16px; margin: 14px 0; }
+.r_ban a { color: #fff; font-size: 12px; }
+.r_ban a:hover { color: #cc0000; text-decoration: underline; }
+.r_ban span { float: right; margin-top: 6px; margin-right: 6px; font-weight: bold; }
+.r_ban h2 { line-height: 30px; font-size: 14px; font-weight: bold; color: #fff; float: left; }
+.r_ban h2 a { font-size: 14px; font-weight: bold; }
+.r_ban h2 a:hover { color: #c00; }
+
+.book_wq { width: 210px; overflow: hidden; padding: 0px; margin-top: 10px; }
+.book_wq ul { width: 210px; overflow: hidden; }
+.book_wq ul li { width: 68px; float: left; text-align: center; margin: 0px 2px 0 0; _display: inline; height: 120px; }
+.book_wq ul li a { line-height: 18px; color: #333; }
+.book_wq ul li a:hover { color: #c00; }
+.book_wq ul li a img { background: #fff; border: 1px solid #ddd; padding: 2px; }
+.book_wq ul li a:hover img { border: 1px solid #096; }
+
+.r_list { width: 209px; overflow: hidden; }
+.r_list a { color: #006600; text-decoration: underline; }
+.r_list a:hover { color: #cc0000; }
+.r_list ul { width: 209px; overflow: hidden; }
+.r_list ul li { width: 194px; line-height: 26px; text-align: left; padding-left: 10px; background: url(../../images/Magazine/indexlistico.gif) no-repeat 4px 12px; border-bottom: 1px dashed #B1CD8D; }
+.r_list ul li a { color: #333; text-decoration: none; }
+.r_list ul li a:hover { color: #c00; text-decoration: underline; }
+
+.sort-frame { border: 1px solid #dddddd; border-top: 3px solid #4d9700; width: 758px; background-color: #f7f7f7; }
+.width803 { width: 803px; }
+.no-top-border { border-top: none; }
+.sort-frame .sort { color: #333333; }
+.sort-frame .sort tr td .opt { width: 340px; overflow: hidden; height: 30px; padding-top: 4px; font-family: "宋体"; font-size: 12px; font-weight: normal; }
+.sort-frame .sort tr td .opt a { line-height: 24px; border: 1px solid #cecbce; text-align: center; color: #333333; background-color: #FFF; padding-right: 10px; padding-left: 10px; float: left; height: 24px; margin-right: 5px; _display: inline; }
+.sort-frame .sort tr td .opt .active { font-weight: bold; color: #FFF; background-color: #e4393c; border: 1px solid #e4393c; background-image: url(../../images/Magazine/search5.jpg); background-repeat: no-repeat; background-position: 6px 7px; text-align: left; padding-left: 19px; }
+.sort-frame .sort tr td .sy { display: inline; border-top-style: none; border-right-style: none; border-bottom-style: none; border-left-style: none; height: auto; width: auto; background-color: #f7f7f7; font-size: 12px; color: #0070c0; }
+.sort-frame .sort tr td .sy-red { color: #ea0000; display: inline; border-top-style: none; border-right-style: none; border-bottom-style: none; border-left-style: none; height: auto; width: auto; background-color: #f7f7f7; font-size: 12px; font-weight: bold; }
+.sort-frame .sort tr td span { color: #bfbfbf; }
+
+.s-k-words { width: 346px; overflow: hidden; position: absolute; top: 112px; font-size: 14px; background-color: #FFF; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-right-color: #b60000; border-bottom-color: #b60000; border-left-color: #b60000; padding-top: 5px; padding-bottom: 5px; float: left; z-index: 1001; left: 241px; }
+.s-k-words a { line-height: 30px; padding-left: 6px; display: block; width: 392px; height: 30px; overflow: hidden; color: #333; text-decoration: none; font-size: 14px; text-align: left; }
+.s-k-words a:hover { background-color: #F2F2F2; }
+
+.cnki-ewm { position: absolute; right: 86px; height: 26px; padding-left: 20px; background: url(../../images/Magazine/ewm.png) left center no-repeat; color: #578a1f; font-family: "Microsoft Yahei"; }
+.cnki-ewm img { position: absolute; top: 26px; right: 50%; margin-right: -62px; z-index: 101; display: none; }
+.cnki-ewm:hover { color: #578a1f; text-decoration: none; }
+.cnki-ewm:hover img { display: block; }
+/*图书推荐*/
+.bookr { margin-top: 30px; }
+.bookr h1 { margin: 0 30px; padding-left: 15px; line-height: 37px; height: 37px; border-bottom: 1px solid #E5E5E5; font-size: 14px; background: url(../../images/Magazine/tstjbg.gif) no-repeat left center; }
+.bookr ul { padding-top: 30px; padding-left: 30px; height: 182px; margin-bottom: 20px; }
+.bookr ul li { float: left; width: 104px; margin-right: 17px; height: auto; background: none; }
+.bookr ul li .img { display: block; padding: 1px 5px 5px 1px; background: url(../../images/RefBook/xgtslibg.gif) no-repeat; }
+.bookr ul li p { line-height: 30px; text-align: center; }
+.bookr ul li p a { color: #333333; text-decoration: none; }
+
+.titleshoufatip { display: inline-block; width: 35px; height: 30px; background: url(../../images/Magazine/cnkinewicon3.png) no-repeat; }
+.titlesigntip { display: inline-block; vertical-align: super; height: 20px; padding: 0 5px; font-size: 12px; line-height: 20px; font-weight: normal; color: #dc4f4f; letter-spacing: -1px; border: 1px solid #dc4f4f; *vertical-align: middle; }
+.titlesigntipcalalog { display: inline-block; vertical-align: super; height: 20px; padding: 0 5px; font-size: 12px; line-height: 16px; font-weight: normal; color: #dc4f4f; letter-spacing: -1px; border: 1px solid #dc4f4f; *vertical-align: middle; float:right; }
+.titlesigntipsimilar { display: inline-block; vertical-align: super; height: 20px; padding: 0 5px; font-size: 12px; line-height: 16px; font-weight: normal; color: #dc4f4f; letter-spacing: -1px; border: 1px solid #dc4f4f; *vertical-align: middle; }
+
+#changeText .rhbt a{ color: #336600; text-decoration: underline; margin: 0 20px;}
+#changeText .rh a { color: #336600; text-decoration: underline; margin: 0 45px; }
